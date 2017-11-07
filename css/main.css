@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  text-decoration: none;
+  text-align: center;
+  color: #785439;
+}
+
+/* .link-card:hover {
+  background-color:
+  color:
+}
+
+.link-card:hover .btn {
+  background-color: ;
+} /*

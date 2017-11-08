@@ -23,9 +23,9 @@ html {
   padding: 1rem;
 }
 
-h1 {
+.link-card h2 {
   margin: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -34,28 +34,22 @@ p {
 }
 
 hr {
-  border-width: 1px;
-  color: #9a816d;
+  color: #cabdb2;
   margin-bottom: 20px;
 }
 
-li {
-/*  text-align: left; */
-  margin: 0;
-  padding: 0;
+dl {
+  border-style: solid;
+  border-left: 1px;
 }
 
-/* dl {
-
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin-bottom: 0px;
-  font-size: .875rem;
-  line-height: 1.5rem;
-} */
-
-
+.family, .scarab {
+  border-style: solid;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  padding-bottom: 1em;
+}
 
 dt {
   float: left;
@@ -76,15 +70,10 @@ dd {
   font-size: .875rem;
 }
 
-
-.hr-2 {
-  border-width: 1px;
-  color: #9a816d;
-}
-
 .btn {
   display: inline-block;
   text-align: center;
+  margin-top: 20px;
   margin-left: 70px;
   background-color: #785439;
   border-style: solid;
@@ -92,18 +81,16 @@ dd {
   border-radius: 8px;
   border-color: #785439;
   color: #f0eee8;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   padding: .4em;
 }
 
-
-
-/* .link-card:hover {
-  background-color:
-  color:
+.link-card:hover {
+  background-color: #cabdb2;
 }
 
 .link-card:hover .btn {
-  background-color: ;
-} /*
+  background-color: #512200;
+  border-color: #512200;
+}

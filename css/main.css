@@ -25,10 +25,16 @@ html {
 
 h1 {
   margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 li {
-  text-align: left;
+/*  text-align: left; */
   margin: 0;
   padding: 0;
 }
@@ -39,6 +45,7 @@ dl {
   overflow: hidden;
   padding: 0;
   margin: 0;
+  font-size: .875rem;
 }
 
 dt {
@@ -46,21 +53,32 @@ dt {
   width: 50%;
   padding: 0;
   margin: 0;
+  clear: left;
+  font-size: .875rem;
 }
 
 dd {
   font-style: italic;
-  text-align: right;
+  text-align: left;
   float: right;
-  width: 50%
-  padding: 0;
+  width: 50%;
+  padding-left: 10px;
   margin: 0;
+  font-size: .875rem;
 }
 
 .btn {
   display: block;
   text-align: center;
   margin-top: 200px;
+  background-color: #785439;
+  border-style: solid;
+  border-width: 2px;
+  border-radius:
+  border-color: #785439;
+  color: #f0eee8;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.125rem;
 }
 
 

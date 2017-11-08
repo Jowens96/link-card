@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
+  font-family: Georgia;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,9 +11,59 @@ html {
 
 .link-card {
   text-decoration: none;
-  text-align: center;
-  color: #785439;
+  background-color: #dcd4cd;
+  display: inline-block;
+  color: #512200;
+  list-style-type: none;
+  border-style: solid;
+  border-color: #9a816d;
+  border-width: 3px;
+  border-radius: 3px;
+  max-width: 20em;
+  padding: 1rem;
 }
+
+h1 {
+  margin: 0;
+}
+
+li {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  font-style: italic;
+  text-align: right;
+  float: right;
+  width: 50%
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
 
 /* .link-card:hover {
   background-color:
